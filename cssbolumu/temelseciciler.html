@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temel Seçiciler</title>
+    <style>
+        /* class seçici */
+        /* id seçici */
+        /* element seçici */
+        /* * herşeyi seçer */
+        p {
+            background-color: blue;
+        }
+
+        * {
+            font-size: 22px;
+        }
+
+        div,
+        p {
+            /* Sayfadaki tüm div ve p'leri seçecektir.*/
+            border-color: green;
+        }
+
+        a[href*="wwww.google.com"] {
+            /* $: biten */
+            /* ^: başlayan */
+            /* *: içerisinde geçen. */
+            font-weight: bolder;
+        }
+
+        a[href^="https"] {
+            background-color: brown;
+        }
+
+        .box1 .box2 {
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <p></p>
+    <p></p>
+</body>
+
+</html>
