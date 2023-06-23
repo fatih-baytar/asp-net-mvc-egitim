@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function onLoad() {
+            const diller = [".NET", "Java", "Javascript"];
+            var ul = document.getElementById('listDiller');
+            for (let i = 0; i < diller.length; i++) {
+                var li = document.createElement('li');
+                li.innerText = diller[i];
+                ul.appendChild(li);
+            }
+            var btn = document.getElementById('btnEkle');
+            btn.addEventListener('click', btnOnClick);
+        }
+        function btnOnClick() {
+            var ul = document.getElementById('listDiller');
+            var li = document.createElement('li');
+            li.innerText = document.getElementById('txbDil').value;
+            ul.appendChild(li);
+        }
+    </script>
+</head>
+
+<body onload="onLoad()">
+    <input id="txbDil" />
+    <button id="btnEkle">Dil Ekle</button>
+    <ul id="listDiller"></ul>
+</body>
+
+</html>

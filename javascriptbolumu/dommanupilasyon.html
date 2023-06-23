@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function btnAdYazOnClick() {
+            var txbAd = document.getElementById('txbAd');
+            console.log(txbAd.value);
+            var h1Element = document.getElementById("hAd");
+            h1Element.innerText = txbAd.value;
+        }
+        function txbAdOnInput() {
+            var txbAd = document.getElementById('txbAd');
+            var h1Element = document.getElementById("hAd");
+            h1Element.innerText = txbAd.value;
+        }
+    </script>
+</head>
+
+<body>
+    <input id="txbAd" oninput="txbAdOnInput()" />
+    <button id="btnAdYaz" onclick="btnAdYazOnClick()">Ad Yaz</button>
+    <h1 id="hAd"></h1>
+</body>
+
+</html>
