@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merhaba MVC</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    
+    
+    @RenderSection("extracss",false)
+
+</head>
+<body>
+    <div> 
+        <a href="@Url.Action("Index","Product")">Product Index</a> 
+        @Html.ActionLink("Product Index","Index","Product",htmlAttributes:new{@class="btn btn-primary"})
+        
+    </div>
+    @*@Html.Partial("_PartialLogo")*@
+    @RenderBody()
+
+    <div>Burası Sabit Kısım - Footer. _Layout.cshtml içinden geldi.</div>
+    
+    @*@Html.Partial("_PartialLogo")*@
+
+    @*@await Component.InvokeAsync("Products")*@
+
+    @RenderSection("extrajs",false)
+</body>
+</html>

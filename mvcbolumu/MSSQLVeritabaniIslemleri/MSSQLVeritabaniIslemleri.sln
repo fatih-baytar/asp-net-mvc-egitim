@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSSQLVeritabaniIslemleri", "MSSQLVeritabaniIslemleri\MSSQLVeritabaniIslemleri.csproj", "{1DF5BFB5-8E1E-43AC-89D0-C49E74D9CCF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeritabaniIslemleri.Data", "VeritabaniIslemleri.Data\VeritabaniIslemleri.Data.csproj", "{2C5394D6-9E92-4E1E-9C2B-296A5646D5AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF5BFB5-8E1E-43AC-89D0-C49E74D9CCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF5BFB5-8E1E-43AC-89D0-C49E74D9CCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF5BFB5-8E1E-43AC-89D0-C49E74D9CCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF5BFB5-8E1E-43AC-89D0-C49E74D9CCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5394D6-9E92-4E1E-9C2B-296A5646D5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5394D6-9E92-4E1E-9C2B-296A5646D5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5394D6-9E92-4E1E-9C2B-296A5646D5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5394D6-9E92-4E1E-9C2B-296A5646D5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684F0C65-DF71-4896-8FCB-C153F501F25B}
+	EndGlobalSection
+EndGlobal

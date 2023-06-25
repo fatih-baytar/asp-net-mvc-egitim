@@ -1,0 +1,62 @@
+﻿@using MerhabaMVC.Models
+@model List<Product>
+@{
+    Layout = "_Layout";
+}
+@section extracss{
+    <style>
+        * {
+            background-color: azure;
+        }
+    </style>
+    
+}
+
+@{
+    string benimAdim = "Fatih BAYTAR";
+    List<string> sehirler = new List<string> { "Ankara", "İstanbul", "İzmir", "Adana", "Amasya" };
+    List<Ogrenci> ogrenciler = new List<Ogrenci>
+    {
+        new Ogrenci{Id=1, FirstName="Fatih", LastName="Baytar"},
+        new Ogrenci{Id=2, FirstName="Mehmet", LastName="Baytar"},
+        new Ogrenci{Id=3, FirstName="Tuba", LastName="Baytar"},
+        new Ogrenci{Id=4, FirstName="Selim", LastName="Güneş"},
+        new Ogrenci{Id=5, FirstName="Ahmet", LastName="Alan"},
+    };
+}
+
+
+@* <h1 style="background-color:#FF0000;">Merhaba Product Index Sayfası</h1>
+    <h3>Benim Adım: @benimAdim </h3>
+    <ol>
+    @foreach (var sehir in sehirler)
+    {
+    <li>@sehir</li>
+    }
+    </ol>
+    <select>
+    @foreach (var ogrenci in ogrenciler)
+    {
+    <option value="@ogrenci.Id">@(ogrenci.FirstName+" "+ogrenci.LastName)</option>
+    }
+    </select>*@
+<h1>Ürün Sayısı:@ViewBag.UrunSayisi</h1>
+@{
+    var ilkUrun = ViewData["IlkUrun"] as Product;
+}
+<h3>
+    İlk Ürün Id:@ilkUrun?.Id
+    Adı: @ilkUrun?.Name
+</h3>
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>@product.Id @product.Name @product.Price</li>
+    }
+</ul>
+@section extrajs{
+    <script>
+        alert("Hello");
+    </script>
+}
+@Html.Partial("_PartialLogo")

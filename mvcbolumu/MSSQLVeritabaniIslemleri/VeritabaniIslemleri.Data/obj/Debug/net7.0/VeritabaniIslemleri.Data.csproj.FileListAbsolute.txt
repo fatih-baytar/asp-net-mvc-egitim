@@ -1,0 +1,14 @@
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\bin\Debug\net7.0\VeritabaniIslemleri.Data.deps.json
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\bin\Debug\net7.0\VeritabaniIslemleri.Data.runtimeconfig.json
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\bin\Debug\net7.0\VeritabaniIslemleri.Data.dll
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\bin\Debug\net7.0\VeritabaniIslemleri.Data.pdb
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.csproj.AssemblyReference.cache
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.AssemblyInfoInputs.cache
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.AssemblyInfo.cs
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.csproj.CoreCompileInputs.cache
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.dll
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\refint\VeritabaniIslemleri.Data.dll
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.pdb
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\VeritabaniIslemleri.Data.genruntimeconfig.cache
+C:\Users\matan\source\repos\WebDevelopmentUdemy\asp-net-mvc-egitim\mvcbolumu\MSSQLVeritabaniIslemleri\VeritabaniIslemleri.Data\obj\Debug\net7.0\ref\VeritabaniIslemleri.Data.dll
