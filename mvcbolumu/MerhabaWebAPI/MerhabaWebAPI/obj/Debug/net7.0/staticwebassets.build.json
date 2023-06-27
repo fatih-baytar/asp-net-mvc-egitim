@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pzSuP+ejvDsIY/hZ56xoHQo1wh0yAT2hUmy0VtEMp14=",
+  "Source": "MerhabaWebAPI",
+  "BasePath": "_content/MerhabaWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
